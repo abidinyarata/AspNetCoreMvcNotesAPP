@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Profil Sil";
+}
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+
+<div class="row pt-4 mb-5">
+    <div class="col-3">
+        <img class="img-thumbnail rounded-circle mx-auto d-block" src="https://picsum.photos/id/1005/128" />
+    </div>
+    <div class="col-6">
+        <h5 class="display-4">Abidin Yarata</h5>
+        <dl class="row">
+            <dt class="col-3">Kullanıcı Adı :</dt>
+            <dd class="col 9">abidinyarata</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-3">E-posta :</dt>
+            <dd class="col 9">abidinyarata@mail.com</dd>
+        </dl>
+        <dl class="row">
+            <dt class="col-3"></dt>
+            <dd class="col 9"><a href="#">ve dahası...</a></dd>
+        </dl>
+        <form action="/" method="post">
+            <h6 class="text-danger">Profilinizi silmek istediğinize emin misiniz?</h6>
+            <p class="text-danger">Bu işlem geri alınamaz!</p>
+            <button type="submit" class="btn btn-danger"><i class="fas fa-trash me-2"></i>Profili Sil</button>
+        </form>
+    </div>
+</div>
